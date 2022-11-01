@@ -1,20 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[9]:
-
-
-#install package
-
-get_ipython().system(' pip install selenium')
-
-
-
-
-
-# In[11]:
-
-
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from webdriver_manager.firefox import GeckoDriverManager
