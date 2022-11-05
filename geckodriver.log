@@ -7243,3 +7243,24 @@ Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
 console.error: services.settings: 
   main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667657987785	geckodriver	INFO	Listening on 127.0.0.1:36371
+1667657988017	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51225" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezaGSsC"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1667657997033	Marionette	INFO	Marionette enabled
+1667657997048	Marionette	INFO	Listening on port 35817
+Read port: 35817
+WebDriver BiDi listening on ws://127.0.0.1:51225
+Read port: 35817
+1667657999080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezaGSsC/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:51225/devtools/browser/0da72059-3430-47aa-a983-fa38d8b473bd
+JavaScript error: https://elections.maryland.gov/elections/2022/primary_results/gen_results_2022_1.html, line 76: ReferenceError: YUI is not defined
+1667658003339	Marionette	INFO	Stopped listening on port 35817
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
