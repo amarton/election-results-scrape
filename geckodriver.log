@@ -9665,3 +9665,21 @@ JavaScript error: https://elections.maryland.gov/elections/2022/primary_results/
 1667800786977	Marionette	INFO	Stopped listening on port 46785
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1667802716612	geckodriver	INFO	Listening on 127.0.0.1:58805
+1667802717106	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "35587" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenm258x"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1667802718044	Marionette	INFO	Marionette enabled
+1667802718050	Marionette	INFO	Listening on port 46465
+Read port: 46465
+WebDriver BiDi listening on ws://127.0.0.1:35587
+1667802718265	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenm258x/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:35587/devtools/browser/9c68f02f-d381-40ea-991f-d6a6871dae2c
+JavaScript error: https://elections.maryland.gov/elections/2022/primary_results/gen_results_2022_1.html, line 76: ReferenceError: YUI is not defined
+1667802721815	Marionette	INFO	Stopped listening on port 46465
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
