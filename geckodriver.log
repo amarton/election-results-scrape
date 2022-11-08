@@ -12207,3 +12207,89 @@ Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
 console.error: services.settings: 
   main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667950184364	geckodriver	INFO	Listening on 127.0.0.1:50405
+1667950184870	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "41047" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenZXTGR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1667950189142	Marionette	INFO	Marionette enabled
+1667950189181	Marionette	INFO	Listening on port 38255
+Read port: 38255
+WebDriver BiDi listening on ws://127.0.0.1:41047
+1667950190070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenZXTGR/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:41047/devtools/browser/782ce5b2-9d02-4cac-bb45-3d98642405f8
+JavaScript error: https://results.elections.maryland.gov/elections/2022/general_results/gen_results_2022_1.html, line 1: SyntaxError: missing ) after condition
+JavaScript error: https://results.elections.maryland.gov/elections/2022/general_results/gen_results_2022_1.html, line 1: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: https://results.elections.maryland.gov/elections/2022/general_results/gen_results_2022_1.html line 1 > injectedScript, line 2: ReferenceError: YUI is not defined
+1667950194652	Marionette	INFO	Stopped listening on port 38255
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667950195395	geckodriver	INFO	Listening on 127.0.0.1:60211
+1667950195898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "59063" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6iuVbb"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1667950196171	Marionette	INFO	Marionette enabled
+1667950196175	Marionette	INFO	Listening on port 36217
+Read port: 36217
+WebDriver BiDi listening on ws://127.0.0.1:59063
+1667950196276	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6iuVbb/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:59063/devtools/browser/efa93631-acd5-4551-9f76-3d7380e40767
+JavaScript error: https://results.elections.maryland.gov/elections/2022/general_results/gen_results_2022_2.html, line 1: SyntaxError: missing ) after condition
+JavaScript error: https://results.elections.maryland.gov/elections/2022/general_results/gen_results_2022_2.html, line 1: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: https://results.elections.maryland.gov/elections/2022/general_results/gen_results_2022_2.html line 1 > injectedScript, line 2: ReferenceError: YUI is not defined
+1667950198497	Marionette	INFO	Stopped listening on port 36217
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667950199362	geckodriver	INFO	Listening on 127.0.0.1:42191
+1667950199867	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "37485" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCid8oE"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1667950200162	Marionette	INFO	Marionette enabled
+1667950200166	Marionette	INFO	Listening on port 37193
+Read port: 37193
+WebDriver BiDi listening on ws://127.0.0.1:37485
+1667950200271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCid8oE/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:37485/devtools/browser/963da0fb-d365-4967-80f8-7d67ee95efc8
+JavaScript error: https://results.elections.maryland.gov/elections/2022/general_results/gen_results_2022_3.html, line 1: SyntaxError: missing ) after condition
+JavaScript error: https://results.elections.maryland.gov/elections/2022/general_results/gen_results_2022_3.html, line 1: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: https://results.elections.maryland.gov/elections/2022/general_results/gen_results_2022_3.html line 1 > injectedScript, line 2: ReferenceError: YUI is not defined
+1667950202341	Marionette	INFO	Stopped listening on port 37193
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667950203320	geckodriver	INFO	Listening on 127.0.0.1:40797
+1667950203825	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "46719" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGw2wsf"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1667950204127	Marionette	INFO	Marionette enabled
+1667950204132	Marionette	INFO	Listening on port 45157
+WebDriver BiDi listening on ws://127.0.0.1:46719
+Read port: 45157
+1667950204403	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGw2wsf/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:46719/devtools/browser/87b9589a-0305-4672-8fc5-04c7d6700928
+JavaScript error: https://results.elections.maryland.gov/elections/2022/general_results/gen_results_2022_4.html, line 1: SyntaxError: missing ) after condition
+JavaScript error: https://results.elections.maryland.gov/elections/2022/general_results/gen_results_2022_4.html, line 1: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: https://results.elections.maryland.gov/elections/2022/general_results/gen_results_2022_4.html line 1 > injectedScript, line 2: ReferenceError: YUI is not defined
+1667950206654	Marionette	INFO	Stopped listening on port 45157
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
