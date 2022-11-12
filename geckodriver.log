@@ -30662,3 +30662,76 @@ JavaScript error: https://elections.maryland.gov/elections/2022/general_results/
 1668267589908	Marionette	INFO	Stopped listening on port 35815
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1668268232060	geckodriver	INFO	Listening on 127.0.0.1:58973
+1668268232184	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51627" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileY0aNYU"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1668268240871	Marionette	INFO	Marionette enabled
+1668268240889	Marionette	INFO	Listening on port 40155
+Read port: 40155
+Read port: 40155
+WebDriver BiDi listening on ws://127.0.0.1:51627
+1668268242631	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileY0aNYU/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:51627/devtools/browser/5853510f-b53a-4898-b0bd-d4bdb137bf52
+JavaScript error: https://elections.maryland.gov/elections/2022/general_results/gen_results_2022_1.html, line 76: ReferenceError: YUI is not defined
+1668268247569	Marionette	INFO	Stopped listening on port 40155
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1668268248216	geckodriver	INFO	Listening on 127.0.0.1:38407
+1668268248720	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "56261" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoASFY5"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1668268249008	Marionette	INFO	Marionette enabled
+1668268249013	Marionette	INFO	Listening on port 44943
+Read port: 44943
+WebDriver BiDi listening on ws://127.0.0.1:56261
+1668268249113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoASFY5/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:56261/devtools/browser/38747e2f-a88d-4536-ad31-1b0a2c3ede40
+JavaScript error: https://elections.maryland.gov/elections/2022/general_results/gen_results_2022_2.html, line 76: ReferenceError: YUI is not defined
+1668268251087	Marionette	INFO	Stopped listening on port 44943
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1668268252199	geckodriver	INFO	Listening on 127.0.0.1:52383
+1668268252703	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "36965" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelzezms"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1668268252993	Marionette	INFO	Marionette enabled
+1668268252998	Marionette	INFO	Listening on port 35845
+Read port: 35845
+WebDriver BiDi listening on ws://127.0.0.1:36965
+1668268253103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelzezms/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:36965/devtools/browser/c0ec02de-617a-4f84-b1dd-840ac86cc75e
+JavaScript error: https://elections.maryland.gov/elections/2022/general_results/gen_results_2022_3.html, line 76: ReferenceError: YUI is not defined
+1668268254833	Marionette	INFO	Stopped listening on port 35845
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1668268256147	geckodriver	INFO	Listening on 127.0.0.1:41151
+1668268256651	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38083" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8hiKeA"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1668268256940	Marionette	INFO	Marionette enabled
+1668268256944	Marionette	INFO	Listening on port 33315
+Read port: 33315
+WebDriver BiDi listening on ws://127.0.0.1:38083
+1668268257044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8hiKeA/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:38083/devtools/browser/40431756-2898-45d6-81c4-da59239f4184
+JavaScript error: https://elections.maryland.gov/elections/2022/general_results/gen_results_2022_4.html, line 76: ReferenceError: YUI is not defined
+1668268258927	Marionette	INFO	Stopped listening on port 33315
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
