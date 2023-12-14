@@ -1,11 +1,8 @@
 from selenium import webdriver
-
-from selenium.webdriver.firefox.service import Service as FirefoxService
-from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
 
 #import beautiful soup plus
 import requests # allow you to send HTTP requests
@@ -24,10 +21,9 @@ import pandas as pd
 
 
 #call the webdriver browser
-
 options = Options()
-options.headless = True
-driver = webdriver.Firefox(options=options)
+options.add_argument("--headless=new")
+driver = webdriver.Chrome(options=options)
 
 
 #open the gov results webpage
@@ -218,8 +214,8 @@ df7.to_csv('csv-results/gov-results2022.csv', mode='a', header=False)
 #call the webdriver browser
 
 options = Options()
-options.headless = True
-driver = webdriver.Firefox(options=options)
+options.add_argument("--headless=new")
+driver = webdriver.Chrome(options=options)
 
 
 #open the gov results webpage
@@ -321,8 +317,8 @@ dfComp3.to_csv('csv-results/comp-results2022.csv', mode='a', header=False)
 #call the webdriver browser
 
 options = Options()
-options.headless = True
-driver = webdriver.Firefox(options=options)
+options.add_argument("--headless=new")
+driver = webdriver.Chrome(options=options)
 
 
 #open the gov results webpage
@@ -424,8 +420,8 @@ dfAG3.to_csv('csv-results/ag-results2022.csv', mode='a', header=False)
 #call the webdriver browser
 
 options = Options()
-options.headless = True
-driver = webdriver.Firefox(options=options)
+options.add_argument("--headless=new")
+driver = webdriver.Chrome(options=options)
 
 
 #open the gov results webpage
